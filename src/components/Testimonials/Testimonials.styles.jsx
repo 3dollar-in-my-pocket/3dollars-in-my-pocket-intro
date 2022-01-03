@@ -12,7 +12,7 @@ const TestimonialsStyled = styled.div`
 
 export const TestimonialItemStyled = styled.div`
   background: #fff;
-  min-width: 294px;
+  min-width: 272px;
   height: 268px;
   border-radius: 29px;
   display: flex;

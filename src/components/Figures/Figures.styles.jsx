@@ -25,7 +25,8 @@ const FiguresStyled = styled.div`
 
 export const FigureListStyled = styled.div`
   display: flex;
-  width: 647px;
+  max-width: 647px;
+  width: 100%;
   justify-content: space-around;
 `;
 

@@ -52,18 +52,21 @@ FeaturesStyled.TabMenuItem = styled.li`
 `;
 
 export const FeaturesMainStyled = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
 export const FeaturesListStyled = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
 export const FeaturesDetailStyled = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
