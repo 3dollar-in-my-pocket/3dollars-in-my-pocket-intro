@@ -90,11 +90,13 @@ export const reviewsData = [
 export const featuresData = {
   main: [
     {
+      id: 1,
       title: "카테고리 바로가기",
       description:
         "메인페이지에서 원하는 길거리 음식 리스트로\n간단하게 이동할 수 있어요.",
     },
     {
+      id: 2,
       title: "지도",
       description:
         "지도에서 붕어빵, 문어빵, 계란빵, 호떡까지!\n가장 가까운 다섯개의 가게를 바로 만나볼 수 있어요. ",
@@ -102,11 +104,13 @@ export const featuresData = {
   ],
   list: [
     {
+      id: 1,
       title: "다른 카테고리 바로가기",
       description:
         "메인페이지에서 원하는 길거리 음식 리스트로\n간단하게 이동할 수 있어요.",
     },
     {
+      id: 2,
       title: "내 근처가게 리스트",
       description:
         "지도에서 붕어빵, 문어빵, 계란빵, 호떡까지!\n가장 가까운 다섯개의 가게를 바로 만나볼 수 있어요. ",
@@ -159,7 +163,7 @@ export const footerData = [
   {
     id: 1,
     title: "Creator",
-    content: `Designer 이윤이, 양효정\nFront-end 유현식, 이윤지\nBackend 전해성, 손지수, 이유리`,
+    content: `Designer 이윤이, 박은지\nFront-end 유현식, 이윤지, 김민호\nBackend 강승호`,
   },
   {
     id: 2,

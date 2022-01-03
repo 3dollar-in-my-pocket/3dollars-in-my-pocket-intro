@@ -3,11 +3,12 @@ import FeaturesStyled from "./Features.styles";
 import FeaturesMain from "./FeaturesMain";
 import FeaturesList from "./FeaturesList";
 import FeaturesDetail from "./FeaturesDetail";
+import { featuresData } from "../../data";
 
 const tab = {
-  MAIN: <FeaturesMain />,
-  LIST: <FeaturesList />,
-  Detail: <FeaturesDetail />,
+  MAIN: <FeaturesMain data={featuresData.main} />,
+  LIST: <FeaturesList data={featuresData.list} />,
+  Detail: <FeaturesDetail data={featuresData.detail} />,
 };
 
 const Features = () => {
