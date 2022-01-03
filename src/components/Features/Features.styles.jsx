@@ -9,6 +9,10 @@ const FeaturesStyled = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+
+  .features_detail .feature_description {
+    margin-bottom: 48px;
+  }
 `;
 
 FeaturesStyled.Title = styled.h3`
