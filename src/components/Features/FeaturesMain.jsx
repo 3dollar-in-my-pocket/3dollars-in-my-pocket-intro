@@ -5,7 +5,7 @@ import FeatureDescription from "./FeatureDescription";
 
 const FeaturesMain = () => {
   return (
-    <FeaturesMainStyled>
+    <FeaturesMainStyled className="features_content">
       <MockupMain />
       <FeatureDescriptionList className="features_responsive">
         <FeatureDescription

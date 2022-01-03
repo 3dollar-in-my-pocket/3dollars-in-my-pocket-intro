@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const FeaturesStyled = styled.div`
   width: 100%;
-  height: 1164px;
+  min-height: 1164px;
+  max-height: 100%;
   color: #fff;
   text-align: center;
   display: flex;

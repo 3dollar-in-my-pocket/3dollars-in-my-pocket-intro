@@ -5,10 +5,10 @@ const ResponsiveStyled = styled.div`
     .header_responsive {
       flex-direction: column;
       justify-content: flex-start;
-      height: 1064px;
+      height: 1164px;
       .profile {
         width: 100%;
-        margin: 100px auto;
+        margin: 100px auto 80px;
       }
     }
 
@@ -43,7 +43,7 @@ const ResponsiveStyled = styled.div`
     }
 
     .figures_responsive {
-      height: 680px;
+      height: 720px;
     }
 
     .figurelist_responsive {
@@ -60,8 +60,40 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
   @media all and (max-width: 479px) {
+    .header_responsive {
+      height: 964px;
+    }
     .slick-slider {
       width: 84%;
+    }
+
+    .features_content {
+      flex-direction: column;
+
+      svg {
+        margin-bottom: 30px;
+      }
+    }
+
+    .download_responsive {
+      height: 100%;
+    }
+
+    h1 {
+      font-size: 4.8rem;
+      word-break: keep-all;
+    }
+    h2 {
+      font-size: 3.4rem;
+      margin: 30px 0 100px 0;
+    }
+
+    .footer_responsive {
+      margin-left: 50px;
+    }
+
+    .footer_responsive > div {
+      margin-right: 40px;
     }
   }
 `;

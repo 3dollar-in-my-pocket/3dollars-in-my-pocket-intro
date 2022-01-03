@@ -3,7 +3,6 @@ import styled from "styled-components";
 const HeaderStyled = styled.div`
   width: 100%;
   height: 964px;
-  margin-top: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +34,7 @@ HeaderStyled.Profile = styled.div`
 `;
 
 HeaderStyled.ProfileImage = styled.img`
-  max-width: 85vw;
+  max-width: 90vw;
 `;
 
 export default HeaderStyled;

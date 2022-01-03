@@ -5,7 +5,7 @@ import FooterItem from "./FooterItem";
 const Footer = () => {
   return (
     <FooterStyled>
-      <FooterStyled.Container>
+      <FooterStyled.Container className="footer_responsive">
         {footerData.map((data) => (
           <FooterItem key={data.id} title={data.title} content={data.content} />
         ))}

@@ -5,7 +5,7 @@ import DownloadButton from "./DownloadButton";
 
 const Download = () => {
   return (
-    <DownloadStyled>
+    <DownloadStyled className="download_responsive">
       <DownloadStyled.Logo>
         <img src={DownloadImage} alt="download profile" />
       </DownloadStyled.Logo>

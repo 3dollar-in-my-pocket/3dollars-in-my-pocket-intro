@@ -8,7 +8,7 @@ import FeatureDescription from "./FeatureDescription";
 
 const FeaturesDetail = () => {
   return (
-    <FeaturesDetailStyled className="features_detail">
+    <FeaturesDetailStyled className="features_detail features_content">
       <MockupDetail />
       <FeatureDescriptionList className="features_responsive">
         {detail.map((item) => (
