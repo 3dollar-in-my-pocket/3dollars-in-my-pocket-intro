@@ -18,7 +18,7 @@ const footerData = [
   {
     id: 1,
     title: "Creator",
-    content: `Designer 이윤이, 양효정\nFront-end 유현식, 이윤지\nBackend 전해성, 손지수, 이유리`,
+    content: `Designer 이윤이, 박은지\nFront-end 유현식, 이윤지, 김민호\nBackend 강승호`,
   },
   {
     id: 2,
