@@ -1,28 +1,44 @@
-/*
- width 1920px~ : max-width 1140px
-*/
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavigationStyled from "./Navigation.styles";
 import { ReactComponent as Logo } from "../../assets/images/img_logo.svg";
 import { ReactComponent as InstaIcon } from "../../assets/icons/icon_insta.svg";
 
 const Navigation = () => {
+  const [current, setCurrent] = useState("");
   return (
     <NavigationStyled className="nav_container">
       <div className="nav_content">
-        <Link to="/">
+        <Link to="/" onClick={() => setCurrent("")}>
           <Logo />
         </Link>
         <ul>
           <li>
-            <Link to="/news">News</Link>
+            <Link
+              to="/news"
+              className={current === "news" ? "current" : ""}
+              onClick={() => setCurrent("news")}
+            >
+              News
+            </Link>
           </li>
           <li>
-            <Link to="/creator">Creator</Link>
+            <Link
+              to="/creator"
+              className={current === "creator" ? "current" : ""}
+              onClick={() => setCurrent("creator")}
+            >
+              Creator
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link
+              to="/contact"
+              className={current === "contact" ? "current" : ""}
+              onClick={() => setCurrent("contact")}
+            >
+              Contact
+            </Link>
           </li>
           <li>
             <a

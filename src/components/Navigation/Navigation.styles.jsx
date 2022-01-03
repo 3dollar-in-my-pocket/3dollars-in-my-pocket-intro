@@ -6,6 +6,10 @@ const NavigationStyled = styled.div`
   position: absolute;
   top: 0;
 
+  .current {
+    color: #ee624c;
+  }
+
   .nav_content {
     width: 100%;
     height: 56px;
