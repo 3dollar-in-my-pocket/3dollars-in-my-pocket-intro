@@ -7,7 +7,8 @@ const ResponsiveStyled = styled.div`
       justify-content: flex-start;
       height: 1064px;
       .profile {
-        margin: 50px 0;
+        width: 100%;
+        margin: 100px auto;
       }
     }
 
@@ -35,12 +36,7 @@ const ResponsiveStyled = styled.div`
     }
   }
 
-  /* 테블릿 세로 (해상도 768px ~ 1023px)*/
-  @media all and (min-width: 768px) and (max-width: 1023px) {
-  }
-
   /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
-
   @media all and (max-width: 767px) {
     .features_responsive {
       margin-left: 10px;
@@ -64,6 +60,9 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
   @media all and (max-width: 479px) {
+    .slick-slider {
+      width: 84%;
+    }
   }
 `;
 
