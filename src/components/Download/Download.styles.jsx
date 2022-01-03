@@ -7,6 +7,7 @@ const DownloadStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
   h2 {
     color: #fff;
     font-weight: 800;
@@ -27,6 +28,9 @@ DownloadStyled.Logo = styled.div`
   background: url(${BackgroundImage});
   display: flex;
   justify-content: center;
+  img {
+    max-width: 95vw;
+  }
 `;
 
 export const DownloadButtonStyled = styled.div``;
