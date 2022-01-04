@@ -1,6 +1,7 @@
 import React from "react";
 import HeaderStyled from "./Header.styles";
 import ProfileImage from "../../assets/images/img_header.svg";
+import DownloadButton from "../Download/DownloadButton";
 
 const Header = () => {
   return (
@@ -15,6 +16,7 @@ const Header = () => {
           다양한 길거리 음식들의 위치가 궁금했다면
           <br /> 지금 바로 가슴속 3천원을 다운로드 해보세요!
         </p>
+        <DownloadButton />
       </HeaderStyled.Profile>
       <HeaderStyled.ProfileImage
         src={ProfileImage}

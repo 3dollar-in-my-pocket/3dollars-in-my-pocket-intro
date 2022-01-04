@@ -34,6 +34,27 @@ DownloadStyled.Logo = styled.div`
   }
 `;
 
-export const DownloadButtonStyled = styled.div``;
+export const DownloadButtonStyled = styled.div`
+  margin: 52px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 56px;
+  background: #ee624c;
+  border-radius: 62px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 32px;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+  img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+`;
 
 export default DownloadStyled;

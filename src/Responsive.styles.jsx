@@ -5,7 +5,7 @@ const ResponsiveStyled = styled.div`
     .header_responsive {
       flex-direction: column;
       justify-content: flex-start;
-      height: 1164px;
+      height: 1264px;
       .profile {
         width: 100%;
         margin: 100px auto 80px;
@@ -66,7 +66,7 @@ const ResponsiveStyled = styled.div`
       }
     }
     .header_responsive {
-      height: 964px;
+      height: 1064px;
     }
     .slick-slider {
       width: 84%;
@@ -81,7 +81,7 @@ const ResponsiveStyled = styled.div`
     }
 
     .download_responsive {
-      height: 100%;
+      height: 800px;
     }
 
     h1 {
@@ -91,7 +91,7 @@ const ResponsiveStyled = styled.div`
 
     h2 {
       font-size: 2.9rem;
-      margin: 30px 10px 100px;
+      margin: 0 10px;
     }
 
     .news_responsive {
