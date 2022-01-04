@@ -8,11 +8,15 @@ import Navigation from "./components/Navigation/Navigation";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ResponsiveStyled from "./Responsive.styles";
+import { useMediaQuery } from "react-responsive";
+import NavigationMobile from "./components/Navigation/NavigationMobile";
 
 function App() {
+  const isMobile = useMediaQuery({ query: "(max-width: 479px)" });
+
   return (
     <ResponsiveStyled className="App">
-      <Navigation />
+      {isMobile ? <NavigationMobile /> : <Navigation />}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/news" element={<News />} />
