@@ -34,7 +34,8 @@ DownloadStyled.Logo = styled.div`
   }
 `;
 
-export const DownloadButtonStyled = styled.div`
+export const DownloadButtonStyled = styled.a`
+  cursor: pointer;
   margin: 52px auto 0;
   display: flex;
   align-items: center;
