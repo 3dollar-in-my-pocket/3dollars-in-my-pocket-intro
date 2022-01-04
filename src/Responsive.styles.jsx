@@ -38,10 +38,6 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
   @media all and (max-width: 767px) {
-    .features_responsive {
-      margin-left: 10px;
-    }
-
     .figures_responsive {
       height: 720px;
     }
@@ -56,6 +52,9 @@ const ResponsiveStyled = styled.div`
   }
 
   @media all and (min-width: 480px) and (max-width: 767px) {
+    .features_responsive {
+      margin-left: 10px;
+    }
   }
 
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
@@ -80,12 +79,12 @@ const ResponsiveStyled = styled.div`
     }
 
     h1 {
-      font-size: 4.8rem;
       word-break: keep-all;
+      margin: 0 10px 24px 10px;
     }
     h2 {
-      font-size: 3.4rem;
-      margin: 30px 0 100px 0;
+      font-size: 2.9rem;
+      margin: 30px 10px 100px;
     }
 
     .footer_responsive {
@@ -94,6 +93,36 @@ const ResponsiveStyled = styled.div`
 
     .footer_responsive > div {
       margin-right: 40px;
+    }
+  }
+
+  @media all and (max-width: 424px) {
+    .slick-slider {
+      width: 100%;
+    }
+    .footer_responsive {
+      margin-left: 35px;
+    }
+    .footer_responsive > div {
+      margin-right: 35px;
+    }
+  }
+
+  @media all and (max-width: 320px) {
+    .testimonial_item {
+      margin: 0 25px;
+      .testimonial_emoji {
+        margin-top: 30px;
+      }
+    }
+
+    .footer_responsive {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+
+    .footer_responsive > div {
+      margin-bottom: 20px;
     }
   }
 `;

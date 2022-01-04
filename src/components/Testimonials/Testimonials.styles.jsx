@@ -8,6 +8,16 @@ const TestimonialsStyled = styled.div`
   height: 436px;
   display: flex;
   align-items: center;
+
+  .slick-dots {
+    display: block;
+    position: relative;
+    top: 25px;
+  }
+
+  .slick-dots li button:before {
+    color: #fff;
+  }
 `;
 
 export const TestimonialItemStyled = styled.div`

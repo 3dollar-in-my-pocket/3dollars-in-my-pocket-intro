@@ -11,6 +11,12 @@ const FeaturesStyled = styled.div`
   align-items: center;
   margin-top: 100px;
 
+  .features_content {
+    svg {
+      width: 100%;
+    }
+  }
+
   .features_detail .feature_description {
     margin-bottom: 48px;
   }
@@ -31,7 +37,8 @@ FeaturesStyled.Description = styled.p`
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 1.5;
-  margin: 24px 0 40px 0;
+  margin: 24px 10px 40px;
+  word-break: keep-all;
 `;
 
 FeaturesStyled.TabMenu = styled.ul`

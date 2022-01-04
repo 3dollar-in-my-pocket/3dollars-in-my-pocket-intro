@@ -15,6 +15,7 @@ const DownloadStyled = styled.div`
     line-height: 4.6rem;
     text-align: center;
     letter-spacing: -0.06em;
+    word-break: keep-all;
 
     span {
       color: #f3a2a9;
