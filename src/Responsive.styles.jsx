@@ -59,6 +59,12 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
   @media all and (max-width: 479px) {
+    .page {
+      margin-top: 56px;
+      h1 {
+        margin-bottom: 76px;
+      }
+    }
     .header_responsive {
       height: 964px;
     }
@@ -80,11 +86,16 @@ const ResponsiveStyled = styled.div`
 
     h1 {
       word-break: keep-all;
-      margin: 0 10px 24px 10px;
+      margin: 0 10px 30px 10px;
     }
+
     h2 {
       font-size: 2.9rem;
       margin: 30px 10px 100px;
+    }
+
+    .news_responsive {
+      width: 90vw;
     }
 
     .footer_responsive {
@@ -105,6 +116,11 @@ const ResponsiveStyled = styled.div`
     }
     .footer_responsive > div {
       margin-right: 35px;
+    }
+
+  .features_content {
+    svg {
+      width: 100%;
     }
   }
 
