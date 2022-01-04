@@ -4,7 +4,7 @@ import Footer from "../components/Footer/Footer";
 
 const Creator = () => {
   return (
-    <div>
+    <div className="page">
       <TitleStyled>Creator</TitleStyled>
       <Footer />
     </div>

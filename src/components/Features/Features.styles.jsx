@@ -10,11 +10,6 @@ const FeaturesStyled = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-
-  .features_content {
-    svg {
-      width: 100%;
-    }
   }
 
   .features_detail .feature_description {

@@ -5,7 +5,7 @@ import Footer from "../components/Footer/Footer";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="page">
       <TitleStyled>Contact info</TitleStyled>
       <ContactForm />
       <Footer />

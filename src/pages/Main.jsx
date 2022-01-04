@@ -9,7 +9,6 @@ import Testimonials from "../components/Testimonials/Testimonials";
 const Main = () => {
   return (
     <div>
-      Main
       <Header />
       <Testimonials />
       <Features />
