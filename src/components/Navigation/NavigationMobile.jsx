@@ -4,7 +4,6 @@ import { slide as Menu } from "react-burger-menu";
 import { NavigationMobileStyled } from "./Navigation.styles";
 import { ReactComponent as Logo } from "../../assets/images/img_logo.svg";
 import { ReactComponent as InstaIcon } from "../../assets/icons/icon_insta.svg";
-import { ReactComponent as LinkIcon } from "../../assets/icons/icon_link.svg";
 
 const NavigationMobile = () => {
   return (
