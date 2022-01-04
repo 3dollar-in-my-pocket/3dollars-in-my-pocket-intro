@@ -5,7 +5,7 @@ import { TitleStyled } from "../App";
 
 const News = () => {
   return (
-    <div>
+    <div className="page">
       <TitleStyled>News</TitleStyled>
       <NewsFeed />
       <Footer />

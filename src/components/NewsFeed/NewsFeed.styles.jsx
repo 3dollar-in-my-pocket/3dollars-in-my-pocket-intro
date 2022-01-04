@@ -5,6 +5,9 @@ const NewsFeedStyled = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  img {
+    width: 100%;
+  }
 `;
 
 NewsFeedStyled.Title = styled.h1`
@@ -52,6 +55,8 @@ NewsItemStyled.Title = styled.div`
   line-height: 1.44;
   letter-spacing: -0.06em;
   margin-top: 8px;
+  height: 52px;
+  overflow: hidden;
 `;
 NewsItemStyled.Author = styled.div`
   color: #f5f5f5;
