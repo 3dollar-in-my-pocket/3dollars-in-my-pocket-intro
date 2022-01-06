@@ -39,7 +39,7 @@ DownloadStyled.Logo = styled.div`
 
 export const DownloadButtonStyled = styled.a`
   cursor: pointer;
-  margin: 52px auto 0;
+  margin: 0 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,6 +59,12 @@ export const DownloadButtonStyled = styled.a`
     height: 32px;
     margin-right: 8px;
   }
+`;
+
+DownloadButtonStyled.Container = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: 52px auto 0;
 `;
 
 export default DownloadStyled;
