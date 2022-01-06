@@ -38,6 +38,9 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
   @media all and (max-width: 767px) {
+    .header_responsive .profile {
+      margin: 100px auto 40px;
+    }
     .figures_responsive {
       height: 720px;
     }
@@ -59,6 +62,9 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
   @media all and (max-width: 479px) {
+    .header_responsive .profile {
+      margin: 100px auto 0;
+    }
     .page {
       margin-top: 70px;
       h1 {
@@ -66,7 +72,7 @@ const ResponsiveStyled = styled.div`
       }
     }
     .header_responsive {
-      height: 1064px;
+      height: 964px;
     }
     .slick-slider {
       width: 84%;
@@ -76,12 +82,18 @@ const ResponsiveStyled = styled.div`
       flex-direction: column;
 
       img {
-        margin-bottom: 30px;
+        max-width: 90vw;
+        margin-bottom: 40px;
       }
     }
 
     .download_responsive {
       height: 800px;
+    }
+
+    .download_logo {
+      margin-top: 10px;
+      margin-bottom: 0;
     }
 
     h1 {
@@ -129,6 +141,13 @@ const ResponsiveStyled = styled.div`
       margin: 0 25px;
       .testimonial_emoji {
         margin-top: 30px;
+      }
+    }
+
+    .features_content {
+      img {
+        width: 98vw;
+        margin: 0;
       }
     }
 
