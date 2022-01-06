@@ -142,19 +142,19 @@ export const figuresData = [
   {
     id: 1,
     icon: { src: UsersIcon, sort: "users icon" },
-    figure: 5000,
+    figure: "10,000",
     description: "일일활성 유저 수",
   },
   {
     id: 2,
     icon: { src: DownloadIcon, sort: "download icon" },
-    figure: 5000,
+    figure: "38,000",
     description: "iOS App 전체 다운로드 수",
   },
   {
     id: 3,
     icon: { src: MapPinIcon, sort: "map pin icon" },
-    figure: 5000,
+    figure: "15,000",
     description: "등록된 점포 수",
   },
 ];
@@ -163,7 +163,7 @@ export const footerData = [
   {
     id: 1,
     title: "Creator",
-    content: `Designer 이윤이, 박은지\nFront-end 유현식, 이윤지, 김민호\nBackend 강승호`,
+    content: `Designer 이윤이, 박은지\niOS 유현식\nAndroid 이윤지, 김민호\nBackend 강승호\nMarketer 윤다영, 이한나`,
   },
   {
     id: 2,
