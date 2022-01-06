@@ -30,7 +30,10 @@ DownloadStyled.Logo = styled.div`
   display: flex;
   justify-content: center;
   img {
+    width: 558px;
+    height: 460px;
     max-width: 95vw;
+    object-fit: contain;
   }
 `;
 

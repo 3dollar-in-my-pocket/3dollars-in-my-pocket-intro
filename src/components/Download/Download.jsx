@@ -1,6 +1,6 @@
 import React from "react";
 import DownloadStyled from "./Download.styles";
-import DownloadImage from "../../assets/images/img_heart.svg";
+import DownloadImage from "../../assets/images/img_heart.png";
 import DownloadButton from "./DownloadButton";
 
 const Download = () => {

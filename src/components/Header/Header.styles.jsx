@@ -34,7 +34,10 @@ HeaderStyled.Profile = styled.div`
 `;
 
 HeaderStyled.ProfileImage = styled.img`
+  width: 670px;
+  height: 730px;
   max-width: 90vw;
+  object-fit: contain;
 `;
 
 export default HeaderStyled;

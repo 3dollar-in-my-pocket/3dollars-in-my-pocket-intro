@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderStyled from "./Header.styles";
-import ProfileImage from "../../assets/images/img_header.svg";
+import ProfileImage from "../../assets/images/img_header.png";
 import DownloadButton from "../Download/DownloadButton";
 
 const Header = () => {

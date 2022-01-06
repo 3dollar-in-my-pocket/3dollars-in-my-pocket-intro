@@ -75,7 +75,7 @@ const ResponsiveStyled = styled.div`
     .features_content {
       flex-direction: column;
 
-      svg {
+      img {
         margin-bottom: 30px;
       }
     }
@@ -119,7 +119,7 @@ const ResponsiveStyled = styled.div`
     }
 
   .features_content {
-    svg {
+    img {
       width: 100%;
     }
   }

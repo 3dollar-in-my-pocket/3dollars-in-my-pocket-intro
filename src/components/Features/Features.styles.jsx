@@ -10,10 +10,16 @@ const FeaturesStyled = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-  }
 
   .features_detail .feature_description {
     margin-bottom: 48px;
+  }
+
+  img {
+    width: 364px;
+    height: 669px;
+    max-width: 60vw;
+    object-fit: contain;
   }
 `;
 
