@@ -1,44 +1,31 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import NavigationStyled from "./Navigation.styles";
 import { ReactComponent as Logo } from "../../assets/images/img_logo.svg";
 import { ReactComponent as InstaIcon } from "../../assets/icons/icon_insta.svg";
 
 const Navigation = () => {
-  const [current, setCurrent] = useState("");
   return (
     <NavigationStyled className="nav_container">
       <div className="nav_content">
-        <Link to="/" onClick={() => setCurrent("")}>
+        <Link to="/">
           <Logo />
         </Link>
         <ul>
           <li>
-            <Link
-              to="/news"
-              className={current === "news" ? "current" : ""}
-              onClick={() => setCurrent("news")}
-            >
+            <NavLink to="/news" activeClassName="active">
               News
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
-              to="/creator"
-              className={current === "creator" ? "current" : ""}
-              onClick={() => setCurrent("creator")}
-            >
+            <NavLink to="/creator" activeClassName="active">
               Creator
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link
-              to="/contact"
-              className={current === "contact" ? "current" : ""}
-              onClick={() => setCurrent("contact")}
-            >
+            <NavLink to="/contact" activeClassName="active">
               Contact
-            </Link>
+            </NavLink>
           </li>
           <li>
             <a

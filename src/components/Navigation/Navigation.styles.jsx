@@ -6,7 +6,7 @@ const NavigationStyled = styled.div`
   position: absolute;
   top: 0;
 
-  .current {
+  .active {
     color: #ee624c;
   }
 
@@ -80,6 +80,11 @@ export const NavigationMobileStyled = styled.div`
   }
 
   .menu-item:hover {
+    color: #ee624c;
+    background: rgb(255, 255, 255);
+  }
+
+  .active {
     color: #ee624c;
     background: rgb(255, 255, 255);
   }

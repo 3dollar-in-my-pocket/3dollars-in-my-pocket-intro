@@ -1,29 +1,65 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import { NavigationMobileStyled } from "./Navigation.styles";
 import { ReactComponent as Logo } from "../../assets/images/img_logo.svg";
 import { ReactComponent as InstaIcon } from "../../assets/icons/icon_insta.svg";
 
 const NavigationMobile = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+  const handleMenuState = (state) => {
+    setMenuOpen(state.isOpen);
+  };
+
   return (
     <NavigationMobileStyled>
       <Link to="/">
         <Logo />
       </Link>
-      <Menu right width={"45%"} styles={styles}>
-        <Link to="/" className="menu-item">
+      <Menu
+        isOpen={menuOpen}
+        onStateChange={handleMenuState}
+        right
+        width={"45%"}
+        styles={styles}
+      >
+        <NavLink
+          to="/"
+          className="menu-item"
+          onClick={closeMenu}
+          activeClassName="active"
+        >
           Home
-        </Link>
-        <Link to="/news" className="menu-item">
+        </NavLink>
+        <NavLink
+          to="/news"
+          className="menu-item"
+          onClick={closeMenu}
+          activeClassName="active"
+        >
           News
-        </Link>
-        <Link to="/creator" className="menu-item">
+        </NavLink>
+        <NavLink
+          to="/creator"
+          className="menu-item"
+          onClick={closeMenu}
+          activeClassName="active"
+        >
           Creator
-        </Link>
-        <Link to="/contact" className="menu-item">
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="menu-item"
+          onClick={closeMenu}
+          activeClassName="active"
+        >
           Contact
-        </Link>
+        </NavLink>
         <div className="menu-contact">
           <a
             href="https://www.instagram.com/3dollar_in_my_pocket/"
