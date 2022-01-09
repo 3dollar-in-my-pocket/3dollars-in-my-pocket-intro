@@ -47,7 +47,6 @@ export const DownloadButtonStyled = styled.a`
   height: 56px;
   background: #ee624c;
   border-radius: 62px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 1.8rem;

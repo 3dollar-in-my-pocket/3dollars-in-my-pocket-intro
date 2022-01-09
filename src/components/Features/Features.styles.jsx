@@ -44,7 +44,6 @@ FeaturesStyled.Description = styled.p`
 
 FeaturesStyled.TabMenu = styled.ul`
   display: flex;
-  font-family: Montserrat;
   font-weight: bold;
   font-size: 1.6rem;
   line-height: 40px;

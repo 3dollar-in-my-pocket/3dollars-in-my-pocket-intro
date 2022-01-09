@@ -46,7 +46,6 @@ export const FigureItemStyled = styled.div`
   }
 
   p {
-    font-family: SpoqaHanSans;
     font-style: normal;
     font-weight: bold;
     font-size: 1.4rem;

@@ -20,7 +20,6 @@ export const FooterItemStyled = styled.div`
   margin-right: 66px;
   div {
     color: #f3a2a9;
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 1.1rem;

@@ -41,7 +41,6 @@ const NavigationStyled = styled.div`
 `;
 
 export const NavigationMobileStyled = styled.div`
-  font-family: Montserrat;
   position: absolute;
   top: 0;
   display: flex;

@@ -39,7 +39,6 @@ export const TestimonialItemStyled = styled.div`
 
   .testimonial_desc {
     height: fit-content;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 1.4rem;
@@ -51,7 +50,6 @@ export const TestimonialItemStyled = styled.div`
   }
 
   .testimonial_nickname {
-    font-family: Roboto;
     font-weight: bold;
     font-size: 1.6rem;
     line-height: 1.5;
