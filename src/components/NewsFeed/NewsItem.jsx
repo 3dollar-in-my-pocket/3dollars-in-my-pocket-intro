@@ -1,9 +1,9 @@
 import React from "react";
 import { NewsItemStyled } from "./NewsFeed.styles";
 
-const NewsItem = ({ thumbnail, title, author }) => {
+const NewsItem = ({ thumbnail, title, author, link }) => {
   return (
-    <NewsItemStyled>
+    <NewsItemStyled href={link} target="_blank">
       <NewsItemStyled.Thumbnail src={thumbnail} />
       <NewsItemStyled.Box>
         <NewsItemStyled.Title>{title}</NewsItemStyled.Title>

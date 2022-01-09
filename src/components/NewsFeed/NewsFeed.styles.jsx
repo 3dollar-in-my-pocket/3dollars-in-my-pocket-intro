@@ -32,7 +32,8 @@ NewsFeedStyled.Content = styled.div`
   max-width: 1108px;
 `;
 
-export const NewsItemStyled = styled.div`
+export const NewsItemStyled = styled.a`
+  cursor: pointer;
   width: 332px;
   height: 304px;
   background: #2e2e2e;
