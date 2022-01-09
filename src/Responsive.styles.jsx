@@ -71,9 +71,6 @@ const ResponsiveStyled = styled.div`
         margin-bottom: 76px;
       }
     }
-    .header_responsive {
-      height: 964px;
-    }
     .slick-slider {
       width: 84%;
     }
@@ -120,6 +117,9 @@ const ResponsiveStyled = styled.div`
   }
 
   @media all and (max-width: 424px) {
+    .header_responsive {
+      height: 964px;
+    }
     .slick-slider {
       width: 100%;
     }
