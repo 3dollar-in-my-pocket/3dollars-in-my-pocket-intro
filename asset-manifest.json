@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.51c9a89b.css",
-    "main.js": "/static/js/main.02a5f3e9.js",
+    "main.js": "/static/js/main.4641cba8.js",
     "static/media/img_heart.png": "/static/media/img_heart.806153d4189d326c8023.png",
     "static/media/img_news1.png": "/static/media/img_news1.d44682d30c3e203aff82.png",
-    "static/media/img_header.png": "/static/media/img_header.1b3451bac6a86e85d251.png",
-    "static/media/img_mockup_main.png": "/static/media/img_mockup_main.7b73cf8fc5deee82ccbc.png",
+    "static/media/img_header.png": "/static/media/img_header.da2cea8a9231ba6cfd91.png",
+    "static/media/img_mockup_main.png": "/static/media/img_mockup_main.76a6540345e9c47ad4c8.png",
     "static/media/img_news3.png": "/static/media/img_news3.70a0dfa18690cac6c39d.png",
     "static/media/img_news4.png": "/static/media/img_news4.4fb24115c0e5e241fe9d.png",
-    "static/media/img_mockup_detail.png": "/static/media/img_mockup_detail.ebd072a4f5f80fb83d0a.png",
+    "static/media/img_mockup_detail.png": "/static/media/img_mockup_detail.6e53b8a7bd9afaf5679d.png",
+    "static/media/img_mockup_list.png": "/static/media/img_mockup_list.bde72c46036b81d3a6dd.png",
     "static/media/img_news2.png": "/static/media/img_news2.31e4acc3b5a40a28c455.png",
-    "static/media/img_mockup_list.png": "/static/media/img_mockup_list.8f39f8b4247617fdf583.png",
     "static/media/img_news5.png": "/static/media/img_news5.233bb6616f2303326be5.png",
     "static/media/img_news6.png": "/static/media/img_news6.d562f7f157746430ec89.png",
     "static/media/img_logo.svg": "/static/media/img_logo.dee30145e74928abfd54583bb93b8a1c.svg",
@@ -23,14 +23,15 @@
     "static/media/icon_users.svg": "/static/media/icon_users.9cdb55834cd93a4cf9f4d4e237d12ec6.svg",
     "static/media/icon_map_pin.svg": "/static/media/icon_map_pin.5aa04d88705a56543607241c4fee387f.svg",
     "static/media/icon_download.svg": "/static/media/icon_download.db4470c98789010e925c4a8f140f9065.svg",
+    "static/media/icon_google_play.svg": "/static/media/icon_google_play.db7a866c50207fa248dabb3a46a366f7.svg",
     "index.html": "/index.html",
     "static/media/icon_chevron_left.svg": "/static/media/icon_chevron_left.5cf5ebb9a248b0723ea85648ee509bc6.svg",
     "static/media/icon_chevron_right.svg": "/static/media/icon_chevron_right.21463fa6bd5fa1dc580f9be574a94b45.svg",
     "main.51c9a89b.css.map": "/static/css/main.51c9a89b.css.map",
-    "main.02a5f3e9.js.map": "/static/js/main.02a5f3e9.js.map"
+    "main.4641cba8.js.map": "/static/js/main.4641cba8.js.map"
   },
   "entrypoints": [
     "static/css/main.51c9a89b.css",
-    "static/js/main.02a5f3e9.js"
+    "static/js/main.4641cba8.js"
   ]
 }
