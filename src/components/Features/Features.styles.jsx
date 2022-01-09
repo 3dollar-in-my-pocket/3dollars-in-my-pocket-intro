@@ -50,6 +50,7 @@ FeaturesStyled.TabMenu = styled.ul`
   margin-bottom: 58px;
   max-width: 95vw;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 `;
 
 FeaturesStyled.TabMenuItem = styled.li`
