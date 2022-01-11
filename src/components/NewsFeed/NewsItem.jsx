@@ -1,13 +1,15 @@
 import React from "react";
 import { NewsItemStyled } from "./NewsFeed.styles";
 
-const NewsItem = ({ thumbnail, title, author, link }) => {
+const NewsItem = ({ thumbnail, title, channel, date, link }) => {
   return (
     <NewsItemStyled href={link} target="_blank">
       <NewsItemStyled.Thumbnail src={thumbnail} />
       <NewsItemStyled.Box>
         <NewsItemStyled.Title>{title}</NewsItemStyled.Title>
-        <NewsItemStyled.Author>{author}</NewsItemStyled.Author>
+        <NewsItemStyled.Author>
+          {channel} ∙ {date}
+        </NewsItemStyled.Author>
       </NewsItemStyled.Box>
     </NewsItemStyled>
   );
