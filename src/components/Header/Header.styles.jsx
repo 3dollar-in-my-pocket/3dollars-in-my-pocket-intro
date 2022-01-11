@@ -16,8 +16,8 @@ HeaderStyled.Profile = styled.div`
 
   h1 {
     font-weight: 800;
-    font-size: 3.8rem;
-    line-height: 1.2;
+    font-size: 4.4rem;
+    line-height: 1.435;
     letter-spacing: -0.06em;
     margin-bottom: 24px;
 

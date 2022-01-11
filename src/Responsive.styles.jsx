@@ -5,7 +5,7 @@ const ResponsiveStyled = styled.div`
     .header_responsive {
       flex-direction: column;
       justify-content: flex-start;
-      height: 1264px;
+      height: 1464px;
       .profile {
         width: 100%;
         margin: 100px auto 80px;
@@ -38,9 +38,6 @@ const ResponsiveStyled = styled.div`
 
   /* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
   @media all and (max-width: 767px) {
-    .header_responsive .profile {
-      margin: 100px auto 40px;
-    }
     .figures_responsive {
       height: 720px;
     }
@@ -60,10 +57,19 @@ const ResponsiveStyled = styled.div`
     }
   }
 
+  @media all and (max-width: 600px) {
+    .header_responsive {
+      height: 1264px;
+    }
+    .header_responsive .profile {
+      margin-bottom: 10px;
+    }
+  }
+
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
   @media all and (max-width: 479px) {
     .header_responsive .profile {
-      margin: 100px auto 0;
+      margin-bottom: 0;
     }
     .page {
       margin-top: 70px;
@@ -118,7 +124,7 @@ const ResponsiveStyled = styled.div`
 
   @media all and (max-width: 424px) {
     .header_responsive {
-      height: 964px;
+      height: 1200px;
     }
     .slick-slider {
       width: 100%;
@@ -137,6 +143,9 @@ const ResponsiveStyled = styled.div`
   }
 
   @media all and (max-width: 320px) {
+    .header_responsive {
+      height: 1164px;
+    }
     .testimonial_item {
       margin: 0 25px;
       .testimonial_emoji {

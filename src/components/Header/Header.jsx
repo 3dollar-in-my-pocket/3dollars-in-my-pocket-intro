@@ -8,9 +8,11 @@ const Header = () => {
     <HeaderStyled className="header_responsive">
       <HeaderStyled.Profile className="profile">
         <h1>
-          언제 어디서 <span>붕어빵</span>을 만날지 모르니
+          언제 어디서 <span>붕어빵</span>을<br />
+          만날지 모르니
           <br />
-          <span>가슴속에 3천원</span>을 지니고 다녀야 해
+          <span>가슴속에 3천원</span>을<br />
+          지니고 다녀야 해
         </h1>
         <p>
           다양한 길거리 음식들의 위치가 궁금했다면
