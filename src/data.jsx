@@ -4,6 +4,7 @@ import News3 from "./assets/images/img_news3.png";
 import News4 from "./assets/images/img_news4.png";
 import News5 from "./assets/images/img_news5.png";
 import News6 from "./assets/images/img_news6.png";
+import Photo1 from "./assets/images/img_creator1.png";
 import UsersIcon from "./assets/icons/icon_users.svg";
 import DownloadIcon from "./assets/icons/icon_download.svg";
 import MapPinIcon from "./assets/icons/icon_map_pin.svg";
@@ -56,7 +57,7 @@ export const newsData = [
 
 export const creatorData = {
   Designer: [
-    { photo: "", name_en: "Lee Yuni", name_ko: "이윤이" },
+    { photo: Photo1, name_en: "Lee Yuni", name_ko: "이윤이" },
     { photo: "", name_en: "Park Eunji", name_ko: "박은지" },
   ],
   Marketer: [
