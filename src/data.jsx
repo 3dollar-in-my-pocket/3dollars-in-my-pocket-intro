@@ -97,15 +97,9 @@ export const featuresData = {
   main: [
     {
       id: 1,
-      title: "카테고리 바로가기",
-      description:
-        "메인페이지에서 원하는 길거리 음식 리스트로\n간단하게 이동할 수 있어요.",
-    },
-    {
-      id: 2,
       title: "지도",
       description:
-        "지도에서 붕어빵, 문어빵, 계란빵, 호떡까지!\n가장 가까운 다섯개의 가게를 바로 만나볼 수 있어요. ",
+        "메인페이지에서 가장 가까운 다섯개의 가게를 바로 만나볼 수 있어요. ",
     },
   ],
   list: [
@@ -154,8 +148,8 @@ export const figuresData = [
   {
     id: 2,
     icon: { src: DownloadIcon, sort: "download icon" },
-    figure: "38,000",
-    description: "iOS App 전체 다운로드 수",
+    figure: "380,000",
+    description: "전체 다운로드 수",
   },
   {
     id: 3,
