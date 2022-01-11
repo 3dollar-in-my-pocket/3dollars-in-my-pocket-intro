@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const CreatorListStyled = styled.div`
   max-width: 1120px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -13,7 +13,6 @@ const CreatorListStyled = styled.div`
     font-size: 2rem;
     line-height: 1.2;
     letter-spacing: -0.04em;
-    margin-right: 12px;
   }
 `;
 
