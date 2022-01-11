@@ -12,7 +12,7 @@ FooterStyled.Container = styled.div`
   display: flex;
   width: 100%;
   max-width: 1140px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 60px;
 `;
 
@@ -31,7 +31,7 @@ export const FooterItemStyled = styled.div`
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
-    line-height: 1.3rem;
+    line-height: 1.8;
     letter-spacing: -0.04em;
   }
 `;

@@ -138,13 +138,26 @@ const ResponsiveStyled = styled.div`
     .footer_responsive > div {
       margin-right: 35px;
     }
-
-  .features_content {
-    img {
-      width: 100%;
+    .features_content {
+      img {
+        width: 100%;
+      }
     }
   }
 
+  @media all and (max-width: 335px) {
+    .footer_container__responsive {
+      height: 280px;
+    }
+    .footer_responsive {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+
+    .footer_responsive > div {
+      margin-bottom: 20px;
+    }
+  }
   @media all and (max-width: 320px) {
     .header_responsive {
       height: 1164px;
@@ -161,15 +174,6 @@ const ResponsiveStyled = styled.div`
         width: 98vw;
         margin: 0;
       }
-    }
-
-    .footer_responsive {
-      flex-direction: column;
-      margin-top: 40px;
-    }
-
-    .footer_responsive > div {
-      margin-bottom: 20px;
     }
   }
 `;
