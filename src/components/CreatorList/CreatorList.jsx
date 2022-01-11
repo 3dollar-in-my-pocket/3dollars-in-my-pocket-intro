@@ -19,7 +19,7 @@ const CreatorList = () => {
             <h2>{item}</h2>
             <hr />
           </CreatorListStyled.Title>
-          <CreatorListStyled.Group>
+          <CreatorListStyled.Group className="creator_group__responsive">
             {creatorData[item].map((creator) => (
               <CreatorItem key={creator.name_en} {...creator} />
             ))}

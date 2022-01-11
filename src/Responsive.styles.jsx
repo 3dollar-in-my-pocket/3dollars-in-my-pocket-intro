@@ -53,6 +53,20 @@ const ResponsiveStyled = styled.div`
     .figurelist_responsive > div {
       margin-bottom: 45px;
     }
+
+    .creator_responsive {
+      max-width: 300px;
+      margin-bottom: 60px;
+      justify-content: center;
+    }
+    .creator_group__responsive {
+      flex-direction: column;
+      margin-bottom: 67px;
+    }
+    .creator_group__responsive > div {
+      margin-top: 47px;
+      margin-bottom: 0;
+    }
   }
 
   @media all and (min-width: 480px) and (max-width: 767px) {
