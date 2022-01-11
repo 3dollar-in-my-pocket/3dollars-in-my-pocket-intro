@@ -23,6 +23,10 @@ const ResponsiveStyled = styled.div`
     .news_responsive > div {
       margin-bottom: 36px;
     }
+
+    .creator_responsive {
+      max-width: 536px;
+    }
   }
 
   /* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/
