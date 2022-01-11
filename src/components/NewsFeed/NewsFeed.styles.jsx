@@ -46,18 +46,18 @@ NewsItemStyled.Thumbnail = styled.img``;
 NewsItemStyled.Box = styled.div`
   height: 124px;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 8px 16px 16px;
   position: relative;
 `;
-NewsItemStyled.Title = styled.div`
+NewsItemStyled.Title = styled.p`
   color: #fff;
   font-weight: bold;
   font-size: 1.8rem;
   line-height: 1.44;
   letter-spacing: -0.06em;
-  margin-top: 8px;
   height: 52px;
   overflow: hidden;
+  text-overflow: ellipsis;
 `;
 NewsItemStyled.Author = styled.div`
   color: #f5f5f5;
