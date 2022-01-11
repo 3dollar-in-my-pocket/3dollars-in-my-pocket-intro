@@ -54,6 +54,23 @@ export const newsData = [
   },
 ];
 
+export const creatorData = {
+  Designer: [
+    { photo: "", name_en: "Lee Yuni", name_ko: "이윤이" },
+    { photo: "", name_en: "Park Eunji", name_ko: "박은지" },
+  ],
+  Marketer: [
+    { photo: "", name_en: "Yoon Dayoung", name_ko: "윤다영" },
+    { photo: "", name_en: "Lee Hanna", name_ko: "이한나" },
+  ],
+  iOS: [{ photo: "", name_en: "Yoo Hyunsik", name_ko: "유현식" }],
+  ANDROID: [
+    { photo: "", name_en: "Lee Yoonji", name_ko: "이윤지" },
+    { photo: "", name_en: "Kim Minho", name_ko: "김민호" },
+  ],
+  BACKEND: [{ photo: "", name_en: "Kang Seungho", name_ko: "강승호" }],
+};
+
 export const reviewsData = [
   {
     id: 1,
