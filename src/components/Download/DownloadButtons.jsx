@@ -6,7 +6,7 @@ import GooglePlayIcon from "../../assets/icons/icon_google_play.svg";
 
 const DownloadButtons = () => {
   return (
-    <DownloadButtonStyled.Container>
+    <DownloadButtonStyled.Container className="button_container__responsive">
       <DownloadButton
         sort="iOS"
         icon={AppleIcon}

@@ -94,7 +94,15 @@ const ResponsiveStyled = styled.div`
     }
 
     .download_responsive {
-      height: 800px;
+      height: 850px;
+    }
+
+    .button_container__responsive {
+      flex-direction: column;
+      align-items: center;
+      height: 140px;
+      justify-content: space-between;
+      margin-bottom: 30px;
     }
 
     .download_logo {
@@ -134,6 +142,9 @@ const ResponsiveStyled = styled.div`
     }
     .testimonial_item {
       padding: 0 16px;
+    }
+    .download_responsive {
+      height: 900px;
     }
     .footer_responsive {
       margin-left: 35px;
