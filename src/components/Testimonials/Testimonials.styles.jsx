@@ -29,7 +29,7 @@ export const TestimonialItemStyled = styled.div`
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 19px;
   margin: 0 35px;
 
   .testimonial_emoji {

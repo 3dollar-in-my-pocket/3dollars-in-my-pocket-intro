@@ -129,6 +129,9 @@ const ResponsiveStyled = styled.div`
     .slick-slider {
       width: 100%;
     }
+    .testimonial_item {
+      padding: 0 16px;
+    }
     .footer_responsive {
       margin-left: 35px;
     }
