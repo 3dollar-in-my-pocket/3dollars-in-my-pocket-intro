@@ -9,6 +9,7 @@ import UsersIcon from "./assets/icons/icon_users.svg";
 import DownloadIcon from "./assets/icons/icon_download.svg";
 import MapPinIcon from "./assets/icons/icon_map_pin.svg";
 
+/* News 페이지 데이터 */
 export const newsData = [
   {
     id: 1,
@@ -61,6 +62,7 @@ export const newsData = [
   },
 ];
 
+/* Creator 페이지 데이터 */
 export const creatorData = {
   Designer: [
     { photo: Photo1, name_en: "Lee Yuni", name_ko: "이윤이" },
@@ -78,6 +80,7 @@ export const creatorData = {
   BACKEND: [{ photo: "", name_en: "Kang Seungho", name_ko: "강승호" }],
 };
 
+/* Home > 유저 리뷰 슬라이드 부분 */
 export const reviewsData = [
   {
     id: 1,
@@ -117,6 +120,7 @@ export const reviewsData = [
   },
 ];
 
+/* Home > 어플리케이션 화면 캡쳐 + 기능 설명 부분 (MAIN | LIST | DETAIL) */
 export const featuresData = {
   main: [
     {
@@ -162,6 +166,7 @@ export const featuresData = {
   ],
 };
 
+/* Home > 어플리케이션 통계 부분 */
 export const figuresData = [
   {
     id: 1,
@@ -183,6 +188,7 @@ export const figuresData = [
   },
 ];
 
+/* Footer 데이터 */
 export const footerData = [
   {
     id: 1,
