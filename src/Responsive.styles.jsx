@@ -57,17 +57,20 @@ const ResponsiveStyled = styled.div`
     }
   }
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 550px) {
     .header_responsive {
-      height: 1264px;
+      height: 1300px;
     }
     .header_responsive .profile {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
   }
 
   /* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
   @media all and (max-width: 479px) {
+    .header_responsive {
+      height: 1250px;
+    }
     .header_responsive .profile {
       margin-bottom: 0;
     }
