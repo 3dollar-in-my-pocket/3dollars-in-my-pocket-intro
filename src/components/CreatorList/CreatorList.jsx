@@ -9,14 +9,14 @@ const CreatorList = () => {
   return (
     <CreatorListStyled>
       {arr.map((item) => (
-        <CreatorListStyled.Container>
+        <CreatorListStyled.Container key={`${item}_container`}>
           <CreatorListStyled.Title>
             <h2>{item}</h2>
             <hr />
           </CreatorListStyled.Title>
-          <CreatorListStyled.Group key={item}>
+          <CreatorListStyled.Group>
             {creatorData[item].map((creator) => (
-              <CreatorItem {...creator} />
+              <CreatorItem key={creator.name_en} {...creator} />
             ))}
           </CreatorListStyled.Group>
         </CreatorListStyled.Container>
