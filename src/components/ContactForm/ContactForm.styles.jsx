@@ -16,6 +16,7 @@ const ContactFormStyled = styled.div`
     letter-spacing: -0.06em;
     margin-bottom: 33px;
     word-break: keep-all;
+    text-align: center;
   }
 
   form {

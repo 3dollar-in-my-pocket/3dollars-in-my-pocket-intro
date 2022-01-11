@@ -57,6 +57,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     white-space: pre-line;
+    font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
   }
   
   a {
