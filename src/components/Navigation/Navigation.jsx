@@ -13,17 +13,17 @@ const Navigation = () => {
         </Link>
         <ul>
           <li>
-            <NavLink to="/news" activeClassName="active">
+            <NavLink to="/news" activeclassname="active">
               News
             </NavLink>
           </li>
           <li>
-            <NavLink to="/creator" activeClassName="active">
+            <NavLink to="/creator" activeclassname="active">
               Creator
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" activeClassName="active">
+            <NavLink to="/contact" activeclassname="active">
               Contact
             </NavLink>
           </li>
