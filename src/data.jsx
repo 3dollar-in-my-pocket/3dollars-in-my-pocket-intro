@@ -5,6 +5,10 @@ import News4 from "./assets/images/img_news4.png";
 import News5 from "./assets/images/img_news5.png";
 import News6 from "./assets/images/img_news6.png";
 import Photo1 from "./assets/images/img_creator1.png";
+import Photo2 from "./assets/images/img_creator2.png";
+import Photo3 from "./assets/images/img_creator3.png";
+import Photo5 from "./assets/images/img_creator5.png";
+import Photo8 from "./assets/images/img_creator8.png";
 import UsersIcon from "./assets/icons/icon_users.svg";
 import DownloadIcon from "./assets/icons/icon_download.svg";
 import MapPinIcon from "./assets/icons/icon_map_pin.svg";
@@ -26,7 +30,7 @@ export const newsData = [
     title: "붕어빵 파는 곳, 제가 어딨는지 다 알려드릴게요",
     channel: "시시비비",
     date: "2020년 12월 6일",
-    link: "",
+    link: "https://ccbblab.co.kr/137070/",
   },
   {
     id: 3,
@@ -34,7 +38,7 @@ export const newsData = [
     title: "어서와 ‘붕세권’은 처음이지?… 붕어빵·호떡 등 재료 인기",
     channel: "국민일보",
     date: "2020년 12월 3일",
-    link: "http://news.kmib.co.kr/article/view.asp?arcid=0924167811",
+    link: "http://news.kmib.co.kr/article/view.asp?arcid=0924167811&code=11151600&cp=nv",
   },
   {
     id: 4,
@@ -42,7 +46,7 @@ export const newsData = [
     title: "“붕어빵 어디서 파냐고? 앱으로 찾아봐”",
     channel: "이데일리",
     date: "2020년 11월 23일",
-    link: "https://www.edaily.co.kr/news/read?newsId=01272646625968672",
+    link: "https://snaptime.edaily.co.kr/?p=50529,%EA%B0%84%EC%8B%9D,%EA%B2%A8%EC%9A%B8,?%84%EA%B8%88,%EB%B6%95%EC%96%B4%EB%B9?%EA%B0&#128;??%EC%A7&#128",
   },
   {
     id: 5,
@@ -50,7 +54,7 @@ export const newsData = [
     title: "“붕어빵 어디서 파냐고? 앱으로 찾아봐”",
     channel: "까탈로그",
     date: "2020년 11월 13일",
-    link: "",
+    link: "https://stibee.com/api/v1.0/emails/share/Yzjr7s9umXqsjyrtsNiQ30ZS1x7XRQ==",
   },
   {
     id: 6,
@@ -66,18 +70,18 @@ export const newsData = [
 export const creatorData = {
   Designer: [
     { photo: Photo1, name_en: "Lee Yuni", name_ko: "이윤이" },
-    { photo: "", name_en: "Park Eunji", name_ko: "박은지" },
+    { photo: Photo2, name_en: "Park Eunji", name_ko: "박은지" },
   ],
   Marketer: [
-    { photo: "", name_en: "Yoon Dayoung", name_ko: "윤다영" },
+    { photo: Photo3, name_en: "Yoon Dayoung", name_ko: "윤다영" },
     { photo: "", name_en: "Lee Hanna", name_ko: "이한나" },
   ],
-  iOS: [{ photo: "", name_en: "Yoo Hyunsik", name_ko: "유현식" }],
+  iOS: [{ photo: Photo5, name_en: "Yoo Hyunsik", name_ko: "유현식" }],
   ANDROID: [
     { photo: "", name_en: "Lee Yoonji", name_ko: "이윤지" },
     { photo: "", name_en: "Kim Minho", name_ko: "김민호" },
   ],
-  BACKEND: [{ photo: "", name_en: "Kang Seungho", name_ko: "강승호" }],
+  BACKEND: [{ photo: Photo8, name_en: "Kang Seungho", name_ko: "강승호" }],
 };
 
 /* Home > 유저 리뷰 슬라이드 부분 */
