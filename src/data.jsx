@@ -8,6 +8,8 @@ import Photo1 from "./assets/images/img_creator1.png";
 import Photo2 from "./assets/images/img_creator2.png";
 import Photo3 from "./assets/images/img_creator3.png";
 import Photo5 from "./assets/images/img_creator5.png";
+import Photo6 from "./assets/images/img_creator6.png";
+import Photo7 from "./assets/images/img_creator7.png";
 import Photo8 from "./assets/images/img_creator8.png";
 import UsersIcon from "./assets/icons/icon_users.svg";
 import DownloadIcon from "./assets/icons/icon_download.svg";
@@ -78,8 +80,8 @@ export const creatorData = {
   ],
   iOS: [{ photo: Photo5, name_en: "Yoo Hyunsik", name_ko: "유현식" }],
   ANDROID: [
-    { photo: "", name_en: "Lee Yoonji", name_ko: "이윤지" },
-    { photo: "", name_en: "Kim Minho", name_ko: "김민호" },
+    { photo: Photo6, name_en: "Lee Yoonji", name_ko: "이윤지" },
+    { photo: Photo7, name_en: "Kim Minho", name_ko: "김민호" },
   ],
   BACKEND: [{ photo: Photo8, name_en: "Kang Seungho", name_ko: "강승호" }],
 };
