@@ -7,6 +7,7 @@ import News6 from "./assets/images/img_news6.png";
 import Photo1 from "./assets/images/img_creator1.png";
 import Photo2 from "./assets/images/img_creator2.png";
 import Photo3 from "./assets/images/img_creator3.png";
+import Photo4 from "./assets/images/img_creator4.png";
 import Photo5 from "./assets/images/img_creator5.png";
 import Photo6 from "./assets/images/img_creator6.png";
 import Photo7 from "./assets/images/img_creator7.png";
@@ -76,7 +77,7 @@ export const creatorData = {
   ],
   Marketer: [
     { photo: Photo3, name_en: "Yoon Dayoung", name_ko: "윤다영" },
-    { photo: "", name_en: "Lee Hanna", name_ko: "이한나" },
+    { photo: Photo4, name_en: "Lee Hanna", name_ko: "이한나" },
   ],
   iOS: [{ photo: Photo5, name_en: "Yoo Hyunsik", name_ko: "유현식" }],
   ANDROID: [
