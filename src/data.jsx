@@ -207,4 +207,17 @@ export const footerData = [
     title: "Contact",
     content: "3dollarinmypocket@gmail.com",
   },
+  {
+    id: 3,
+    title: "광고 문의",
+    content: (
+      <a
+        href="https://drive.google.com/file/d/1_ryRU5bolzZPaUfv8TLfcUZIDOIKVl_x/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
+        광고 상품 소개서
+      </a>
+    ),
+  },
 ];
