@@ -34,6 +34,11 @@ export const FooterItemStyled = styled.div`
     line-height: 1.8;
     letter-spacing: -0.04em;
   }
+
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
 `;
 
 export default FooterStyled;
