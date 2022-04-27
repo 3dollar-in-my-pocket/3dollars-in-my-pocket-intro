@@ -1,15 +1,19 @@
 import React from "react";
 import DownloadStyled from "./Download.styles";
 import DownloadButtons from "./DownloadButtons";
+import HeartImg from "../../assets/images/img_heart.webp";
 
 const Download = () => {
   return (
     <DownloadStyled className="download_responsive">
       <DownloadStyled.Logo className="download_logo">
-        <img
-          src="https://i.postimg.cc/7ZqTsmSG/img-heart.png"
-          alt="download profile"
-        />
+        <picture>
+          <source srcSet={HeartImg} type="image/webp" />
+          <img
+            src="https://i.postimg.cc/7ZqTsmSG/img-heart.png"
+            alt="download profile"
+          />
+        </picture>
       </DownloadStyled.Logo>
       <h2>
         지금 바로 <span>가슴속 3천원</span>과 함께

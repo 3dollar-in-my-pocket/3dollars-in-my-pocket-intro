@@ -29,7 +29,8 @@ DownloadStyled.Logo = styled.div`
   background: url(${BackgroundImage});
   display: flex;
   justify-content: center;
-  img {
+  img,
+  source {
     width: 558px;
     height: 460px;
     max-width: 115vw;

@@ -15,7 +15,8 @@ const FeaturesStyled = styled.div`
     margin-bottom: 48px;
   }
 
-  img {
+  img,
+  source {
     width: 364px;
     height: 669px;
     max-width: 60vw;
@@ -55,9 +56,9 @@ FeaturesStyled.TabMenu = styled.ul`
 
 FeaturesStyled.TabMenuItem = styled.li`
   width: 186px;
-  color: ${({ type, current }) => (type === current ? "#ee624c" : "#fff")}}; 
-  border-bottom: 1px solid ${({ type, current }) =>
-    type === current ? "#ee624c" : "#fff"}};
+  color: ${({ type, current }) => (type === current ? "#ee624c" : "#fff")};
+  border-bottom: 1px solid
+    ${({ type, current }) => (type === current ? "#ee624c" : "#fff")};
 `;
 
 export const FeaturesMainStyled = styled.div`
