@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderStyled from "./Header.styles";
-import ProfileImage from "../../assets/images/img_header.png";
+// import ProfileImage from "../../assets/images/img_header.png";
 import DownloadButtons from "../Download/DownloadButtons";
 
 const Header = () => {
@@ -21,7 +21,7 @@ const Header = () => {
         <DownloadButtons />
       </HeaderStyled.Profile>
       <HeaderStyled.ProfileImage
-        src={ProfileImage}
+        src="https://i.postimg.cc/DyBrL9bp/img-header.png"
         alt="Profile Image"
       ></HeaderStyled.ProfileImage>
     </HeaderStyled>

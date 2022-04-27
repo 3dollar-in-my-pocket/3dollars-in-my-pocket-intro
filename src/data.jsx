@@ -1,17 +1,3 @@
-import News1 from "./assets/images/img_news1.png";
-import News2 from "./assets/images/img_news2.png";
-import News3 from "./assets/images/img_news3.png";
-import News4 from "./assets/images/img_news4.png";
-import News5 from "./assets/images/img_news5.png";
-import News6 from "./assets/images/img_news6.png";
-import Photo1 from "./assets/images/img_creator1.png";
-import Photo2 from "./assets/images/img_creator2.png";
-import Photo3 from "./assets/images/img_creator3.png";
-import Photo4 from "./assets/images/img_creator4.png";
-import Photo5 from "./assets/images/img_creator5.png";
-import Photo6 from "./assets/images/img_creator6.png";
-import Photo7 from "./assets/images/img_creator7.png";
-import Photo8 from "./assets/images/img_creator8.png";
 import UsersIcon from "./assets/icons/icon_users.svg";
 import DownloadIcon from "./assets/icons/icon_download.svg";
 import MapPinIcon from "./assets/icons/icon_map_pin.svg";
@@ -20,7 +6,7 @@ import MapPinIcon from "./assets/icons/icon_map_pin.svg";
 export const newsData = [
   {
     id: 1,
-    thumbnail: News1,
+    thumbnail: "https://i.postimg.cc/1RLGHGWw/img-news1.png",
     title:
       "붕어빵에 ㄹㅇ진심인 사람들이 작정하고 만든 앱 '가슴속3천원' 직접 써봤다! (feat. 개발자...",
     channel: "유튜브 14F채널",
@@ -29,7 +15,7 @@ export const newsData = [
   },
   {
     id: 2,
-    thumbnail: News2,
+    thumbnail: "https://i.postimg.cc/mkFrkFCG/img-news2.png",
     title: "붕어빵 파는 곳, 제가 어딨는지 다 알려드릴게요",
     channel: "시시비비",
     date: "2020년 12월 6일",
@@ -37,7 +23,7 @@ export const newsData = [
   },
   {
     id: 3,
-    thumbnail: News3,
+    thumbnail: "https://i.postimg.cc/T2yjg7cT/img-news3.png",
     title: "어서와 ‘붕세권’은 처음이지?… 붕어빵·호떡 등 재료 인기",
     channel: "국민일보",
     date: "2020년 12월 3일",
@@ -45,7 +31,7 @@ export const newsData = [
   },
   {
     id: 4,
-    thumbnail: News4,
+    thumbnail: "https://i.postimg.cc/dDPVytjZ/img-news4.png",
     title: "“붕어빵 어디서 파냐고? 앱으로 찾아봐”",
     channel: "이데일리",
     date: "2020년 11월 23일",
@@ -53,7 +39,7 @@ export const newsData = [
   },
   {
     id: 5,
-    thumbnail: News5,
+    thumbnail: "https://i.postimg.cc/gJ7JGKwD/img-news5.png",
     title: "“붕어빵 어디서 파냐고? 앱으로 찾아봐”",
     channel: "까탈로그",
     date: "2020년 11월 13일",
@@ -61,7 +47,7 @@ export const newsData = [
   },
   {
     id: 6,
-    thumbnail: News6,
+    thumbnail: "https://i.postimg.cc/ydxxqGNx/img-news6.png",
     title: "가슴속 3천원 붕어빵에 누구보다 진심이었던 한국인의 사이드 프로젝트",
     channel: "디프만 미디엄",
     date: "2020년 11월 19일",
@@ -72,19 +58,55 @@ export const newsData = [
 /* Creator 페이지 데이터 */
 export const creatorData = {
   Designer: [
-    { photo: Photo1, name_en: "Lee Yuni", name_ko: "이윤이" },
-    { photo: Photo2, name_en: "Park Eunji", name_ko: "박은지" },
+    {
+      photo: "https://i.postimg.cc/0jmJ34tm/img-creator1.png",
+      name_en: "Lee Yuni",
+      name_ko: "이윤이",
+    },
+    {
+      photo: "https://i.postimg.cc/bJ4tmPRp/img-creator2.png",
+      name_en: "Park Eunji",
+      name_ko: "박은지",
+    },
   ],
   Marketer: [
-    { photo: Photo3, name_en: "Yoon Dayoung", name_ko: "윤다영" },
-    { photo: Photo4, name_en: "Lee Hanna", name_ko: "이한나" },
+    {
+      photo: "https://i.postimg.cc/bY2bsGzJ/img-creator3.png",
+      name_en: "Yoon Dayoung",
+      name_ko: "윤다영",
+    },
+    {
+      photo: "https://i.postimg.cc/CLT8DF14/img-creator4.png",
+      name_en: "Lee Hanna",
+      name_ko: "이한나",
+    },
   ],
-  iOS: [{ photo: Photo5, name_en: "Yoo Hyunsik", name_ko: "유현식" }],
+  iOS: [
+    {
+      photo: "https://i.postimg.cc/WbGkwQqc/img-creator5.png",
+      name_en: "Yoo Hyunsik",
+      name_ko: "유현식",
+    },
+  ],
   ANDROID: [
-    { photo: Photo6, name_en: "Lee Yoonji", name_ko: "이윤지" },
-    { photo: Photo7, name_en: "Kim Minho", name_ko: "김민호" },
+    {
+      photo: "https://i.postimg.cc/pTmjQrzs/img-creator6.png",
+      name_en: "Lee Yoonji",
+      name_ko: "이윤지",
+    },
+    {
+      photo: "https://i.postimg.cc/NjxRBWQk/img-creator7.png",
+      name_en: "Kim Minho",
+      name_ko: "김민호",
+    },
   ],
-  BACKEND: [{ photo: Photo8, name_en: "Kang Seungho", name_ko: "강승호" }],
+  BACKEND: [
+    {
+      photo: "https://i.postimg.cc/W1VMR2c4/img-creator8.png",
+      name_en: "Kang Seungho",
+      name_ko: "강승호",
+    },
+  ],
 };
 
 /* Home > 유저 리뷰 슬라이드 부분 */
