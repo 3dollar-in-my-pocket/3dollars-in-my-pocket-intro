@@ -1,3 +1,8 @@
 {
-  "extends": ["react-app", "plugin:prettier/recommended"]
+  "extends": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "requireConfigFile": false
+  },
+  "parser": "@babel/eslint-parser"
 }
