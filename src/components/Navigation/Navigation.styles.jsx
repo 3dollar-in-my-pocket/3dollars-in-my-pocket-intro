@@ -24,6 +24,11 @@ const NavigationStyled = styled.div`
     line-height: 1.7;
   }
 
+  .nav_left {
+    display: flex;
+    align-items: center;
+  }
+
   a {
     color: #fff;
     display: flex;
