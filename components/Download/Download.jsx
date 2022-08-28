@@ -1,5 +1,4 @@
 import styled from '@emotion/styled'
-// import BackgroundImage from '../../assets/images/img_background.svg'
 import HeartImg from '../../assets/images/img_heart.webp'
 import DownloadButtons from './DownloadButtons'
 
@@ -28,7 +27,7 @@ const DownloadStyled = styled.div`
 const Logo = styled.div`
   width: 100%;
   margin: 111px 0 16px 0;
-
+  background: url('/img_background.svg');
   display: flex;
   justify-content: center;
   img,
