@@ -2,7 +2,7 @@ import styled from '@emotion/styled'
 import HeartImg from '../../assets/images/img_heart.webp'
 import DownloadButtons from './DownloadButtons'
 
-const DownloadStyled = styled.div`
+const Wrapper = styled.div`
   width: 100%;
   height: 956px;
   display: flex;
@@ -41,7 +41,7 @@ const Logo = styled.div`
 
 const Download = () => {
   return (
-    <DownloadStyled className="download_responsive">
+    <Wrapper className="download_responsive">
       <Logo className="download_logo">
         <picture>
           <source srcSet={HeartImg} type="image/webp" />
@@ -56,7 +56,7 @@ const Download = () => {
         <br /> 따뜻한 겨울을 즐겨보세요!
       </h2>
       <DownloadButtons />
-    </DownloadStyled>
+    </Wrapper>
   )
 }
 

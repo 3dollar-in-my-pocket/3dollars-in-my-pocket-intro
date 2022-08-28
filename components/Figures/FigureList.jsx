@@ -13,7 +13,7 @@ const FigureList = () => {
   return (
     <FigureListStyled className="figurelist_responsive">
       {figuresData.map((item) => (
-        <FigureItem key={item.id} {...item} />
+        <FigureItem key={item.id} Icon={item.icon.src} {...item} />
       ))}
     </FigureListStyled>
   )

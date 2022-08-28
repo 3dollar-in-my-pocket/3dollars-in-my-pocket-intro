@@ -25,10 +25,10 @@ const FigureItemStyled = styled.div`
   }
 `
 
-const FigureItem = ({ icon, figure, description }) => {
+const FigureItem = ({ Icon, figure, description }) => {
   return (
     <FigureItemStyled>
-      <img src={icon.src} alt={icon.sort} />
+      <Icon />
       <div>{figure}</div>
       <p>{description}</p>
     </FigureItemStyled>

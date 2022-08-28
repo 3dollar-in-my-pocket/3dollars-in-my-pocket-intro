@@ -1,12 +1,12 @@
 import styled from '@emotion/styled'
-import { TitleStyled } from '../App'
 import CreatorList from '../components/CreatorList/CreatorList'
 import Footer from '../components/Footer/Footer'
+import PageTitle from '../components/public/PageTitle'
 
 const Creator = () => {
   return (
     <CreatorStyled className="page">
-      <TitleStyled>Creator</TitleStyled>
+      <PageTitle name="Creator" />
       <CreatorList />
       <Footer />
     </CreatorStyled>

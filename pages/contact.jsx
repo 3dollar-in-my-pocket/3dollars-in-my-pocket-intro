@@ -1,12 +1,11 @@
-import React from 'react'
-import { TitleStyled } from '../App'
 import ContactForm from '../components/ContactForm/ContactForm'
 import Footer from '../components/Footer/Footer'
+import PageTitle from '../components/public/PageTitle'
 
 const Contact = () => {
   return (
     <div className="page">
-      <TitleStyled>Contact info</TitleStyled>
+      <PageTitle name="Contact info" />
       <ContactForm />
       <Footer />
     </div>
