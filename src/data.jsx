@@ -87,17 +87,22 @@ export const creatorData = {
       name_en: "Yoo Hyunsik",
       name_ko: "유현식",
     },
+    {
+      photo: "https://i.postimg.cc/3xqHSMkq/img-creator9.png",
+      name_en: "Lee Gaeun",
+      name_ko: "이가은",
+    },
   ],
   ANDROID: [
-    {
-      photo: "https://i.postimg.cc/pTmjQrzs/img-creator6.png",
-      name_en: "Lee Yoonji",
-      name_ko: "이윤지",
-    },
     {
       photo: "https://i.postimg.cc/NjxRBWQk/img-creator7.png",
       name_en: "Kim Minho",
       name_ko: "김민호",
+    },
+    {
+      photo: "https://i.postimg.cc/bNCXrX9v/image-creator11.png",
+      name_en: "Jeong Jinyoung",
+      name_ko: "정진용",
     },
   ],
   BACKEND: [
@@ -105,6 +110,11 @@ export const creatorData = {
       photo: "https://i.postimg.cc/W1VMR2c4/img-creator8.png",
       name_en: "Kang Seungho",
       name_ko: "강승호",
+    },
+    {
+      photo: "https://i.postimg.cc/tJ90Zpcs/image-creator10.png",
+      name_en: "Ko Yerim",
+      name_ko: "고예림",
     },
   ],
 };
@@ -206,13 +216,13 @@ export const figuresData = [
   {
     id: 2,
     icon: { src: DownloadIcon, sort: "download icon" },
-    figure: "800,000+",
+    figure: "760,000+",
     description: "전체 다운로드 수",
   },
   {
     id: 3,
     icon: { src: MapPinIcon, sort: "map pin icon" },
-    figure: "18,000+",
+    figure: "17,000+",
     description: "등록된 점포 수",
   },
 ];
@@ -222,7 +232,7 @@ export const footerData = [
   {
     id: 1,
     title: "Creator",
-    content: `Designer 이윤이, 박은지\niOS 유현식\nAndroid 이윤지, 김민호\nBackend 강승호\nMarketer 윤다영, 이한나`,
+    content: `Designer 이윤이, 박은지\niOS 유현식, 이가은\nAndroid 김민호, 정진용\nBackend 강승호, 고예림\nMarketer 윤다영, 이한나`,
   },
   {
     id: 2,
@@ -234,7 +244,7 @@ export const footerData = [
     title: "광고 문의",
     content: (
       <a
-        href="https://drive.google.com/file/d/1_ryRU5bolzZPaUfv8TLfcUZIDOIKVl_x/view?usp=sharing"
+        href="https://drive.google.com/file/d/1GzdLHhX0gQSEtknRGmUUnoMaJodE5i3y/view?usp=share_link"
         target="_blank"
         rel="noreferrer"
       >
