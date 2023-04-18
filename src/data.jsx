@@ -216,13 +216,13 @@ export const figuresData = [
   {
     id: 2,
     icon: { src: DownloadIcon, sort: "download icon" },
-    figure: "760,000+",
+    figure: "850,000+",
     description: "전체 다운로드 수",
   },
   {
     id: 3,
     icon: { src: MapPinIcon, sort: "map pin icon" },
-    figure: "17,000+",
+    figure: "19,000+",
     description: "등록된 점포 수",
   },
 ];
