@@ -89,8 +89,8 @@ export const creatorData = {
     },
     {
       photo: "https://i.postimg.cc/3xqHSMkq/img-creator9.png",
-      name_en: "Lee Gaeun",
-      name_ko: "이가은",
+      name_en: "Kim Hakyung",
+      name_ko: "김하경",
     },
   ],
   ANDROID: [
