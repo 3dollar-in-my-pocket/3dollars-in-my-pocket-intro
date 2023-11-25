@@ -1,3 +1,1 @@
-# 3dolloarinmypocket.github.io
-
-# 안녕하세요, 가슴속3천원 입니다
+# 가슴속3천원 인트로 페이지
