@@ -52,7 +52,7 @@ export const newsData = [
     channel: "디프만 미디엄",
     date: "2020년 11월 19일",
     link: "https://medium.com/depromeet/%EA%B0%80%EC%8A%B4%EC%86%8D-3%EC%B2%9C%EC%9B%90-%EB%B6%95%EC%96%B4%EB%B9%B5%EC%97%90-%EB%88%84%EA%B5%AC%EB%B3%B4%EB%8B%A4-%EC%A7%84%EC%8B%AC%EC%9D%B4%EC%97%88%EB%8D%98-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%B8%EC%9D%98-%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-2a3f714026b3",
-  },
+  }
 ];
 
 /* Creator 페이지 데이터 */
@@ -216,13 +216,13 @@ export const figuresData = [
   {
     id: 2,
     icon: { src: DownloadIcon, sort: "download icon" },
-    figure: "850,000+",
+    figure: "1,000,000+",
     description: "전체 다운로드 수",
   },
   {
     id: 3,
     icon: { src: MapPinIcon, sort: "map pin icon" },
-    figure: "19,000+",
+    figure: "20,000+",
     description: "등록된 점포 수",
   },
 ];
@@ -232,7 +232,7 @@ export const footerData = [
   {
     id: 1,
     title: "Creator",
-    content: `Designer 이윤이, 박은지\niOS 유현식, 이가은\nAndroid 김민호, 정진용\nBackend 강승호, 고예림\nMarketer 윤다영, 이한나`,
+    content: `Designer 이윤이, 박은지\niOS 유현식, 김하경\nAndroid 김민호, 정진용\nBackend 강승호, 고예림\nMarketer 윤다영, 이한나`,
   },
   {
     id: 2,
