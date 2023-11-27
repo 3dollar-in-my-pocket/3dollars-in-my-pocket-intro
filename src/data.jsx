@@ -244,7 +244,7 @@ export const footerData = [
     title: "광고 문의",
     content: (
       <a
-        href="https://drive.google.com/file/d/1GzdLHhX0gQSEtknRGmUUnoMaJodE5i3y/view?usp=share_link"
+        href="https://drive.google.com/file/d/1yNquSw6QAl3THbJDi8_MEADSAqDiZxQN/view?usp=drive_link"
         target="_blank"
         rel="noreferrer"
       >
