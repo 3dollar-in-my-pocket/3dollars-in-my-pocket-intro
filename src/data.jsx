@@ -230,11 +230,6 @@ export const figuresData = [
 /* Footer 데이터 */
 export const footerData = [
   {
-    id: 1,
-    title: "Creator",
-    content: `Designer 이윤이, 박은지\niOS 유현식, 김하경\nAndroid 김민호, 정진용\nBackend 강승호, 고예림\nMarketer 윤다영, 이한나`,
-  },
-  {
     id: 2,
     title: "Contact",
     content: "3dollarinmypocket@gmail.com",
