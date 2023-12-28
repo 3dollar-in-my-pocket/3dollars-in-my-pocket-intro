@@ -239,7 +239,7 @@ export const footerData = [
     title: "광고 문의",
     content: (
       <a
-        href="https://drive.google.com/file/d/1yNquSw6QAl3THbJDi8_MEADSAqDiZxQN/view?usp=drive_link"
+        href="https://massive-iguana-121.notion.site/3-ff344e306d0c4417973daee8792cfe4d"
         target="_blank"
         rel="noreferrer"
       >
