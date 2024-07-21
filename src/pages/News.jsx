@@ -6,7 +6,7 @@ import { TitleStyled } from "../App";
 const News = () => {
   return (
     <div className="page">
-      <TitleStyled>News</TitleStyled>
+      <TitleStyled>미디어 속 '가슴속3천원'</TitleStyled>
       <NewsFeed />
       <Footer />
     </div>

@@ -24,18 +24,16 @@ const Navigation = () => {
         <ul>
           <li>
             <NavLink to="/news" activeclassname="active">
-              News
+              미디어 속 '가슴속 3천원'
             </NavLink>
           </li>
           <li>
             <NavLink to="/creator" activeclassname="active">
-              Creator
+              팀원 소개
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" activeclassname="active">
-              Contact
-            </NavLink>
+            <a href="http://pf.kakao.com/_RxghUb">카톡 문의</a>
           </li>
           <li>
             <a

@@ -42,7 +42,7 @@ const NavigationMobile = () => {
           onClick={closeMenu}
           activeClassName="active"
         >
-          News
+          미디어 속 '가슴속 3천원'
         </NavLink>
         <NavLink
           to="/creator"
@@ -50,7 +50,7 @@ const NavigationMobile = () => {
           onClick={closeMenu}
           activeClassName="active"
         >
-          Creator
+          팀원 소개
         </NavLink>
         <NavLink
           to="/contact"

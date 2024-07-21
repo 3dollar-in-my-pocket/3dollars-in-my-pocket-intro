@@ -210,19 +210,19 @@ export const figuresData = [
   {
     id: 1,
     icon: { src: UsersIcon, sort: "users icon" },
-    figure: "200,000",
+    figure: "20만+",
     description: "월간 활성 유저 수",
   },
   {
     id: 2,
     icon: { src: DownloadIcon, sort: "download icon" },
-    figure: "1,000,000+",
+    figure: "100만+",
     description: "전체 가입자 수",
   },
   {
     id: 3,
     icon: { src: MapPinIcon, sort: "map pin icon" },
-    figure: "20,000+",
+    figure: "2만+",
     description: "등록된 점포 수",
   },
 ];
