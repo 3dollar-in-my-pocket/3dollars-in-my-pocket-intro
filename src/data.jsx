@@ -5,20 +5,35 @@ import MapPinIcon from "./assets/icons/icon_map_pin.svg";
 /* News 페이지 데이터 */
 export const newsData = [
   {
+    id: 12,
+    title: "'우리 동네 붕세권은?'···이른 추위에 '붕어빵 앱' 인기",
+    thumbnail: "https://i.postimg.cc/ydxxqGNx/img-news6.png",
+    link: "https://www.sisajournal-e.com/news/articleView.html?idxno=304178",
+    channel: "시사저널",
+    date: "2023년 10월",
+  },
+  {
+    id: 11,
+    title: "사소한 호기심에서 40만 이용자 수의 앱을 만들기까지ㅣ가슴속 3천원",
+    thumbnail: "https://i.postimg.cc/dQHBGV3r/2024-07-24-9-30-08.png",
+    link: "https://www.youtube.com/watch?v=CCI8a3WAGxE",
+    channel: "아웃캠퍼스",
+    date: "2023년 7월",
+  },
+  {
     id: 1,
-    thumbnail: "https://i.postimg.cc/1RLGHGWw/img-news1.png",
-    title:
-      "붕어빵에 ㄹㅇ진심인 사람들이 작정하고 만든 앱 '가슴속3천원' 직접 써봤다! (feat. 개발자...",
-    channel: "유튜브 14F채널",
-    date: "2020년 12월 1일",
-    link: "https://www.youtube.com/watch?v=KUZHQpH0M_E",
+    title: "출시 1년 후 앱스토어 1위가 된 '가슴속 3천원'",
+    thumbnail: "https://i.postimg.cc/tCDH3PPD/2024-07-24-9-23-05.png",
+    link: "https://www.wanted.co.kr/events/22_03_s04_b02",
+    channel: "원티드",
+    date: "2022년 3월",
   },
   {
     id: 2,
     thumbnail: "https://i.postimg.cc/mkFrkFCG/img-news2.png",
     title: "붕어빵 파는 곳, 제가 어딨는지 다 알려드릴게요",
     channel: "시시비비",
-    date: "2020년 12월 6일",
+    date: "2020년 12월",
     link: "https://ccbblab.co.kr/137070/",
   },
   {
@@ -26,7 +41,7 @@ export const newsData = [
     thumbnail: "https://i.postimg.cc/T2yjg7cT/img-news3.png",
     title: "어서와 ‘붕세권’은 처음이지?… 붕어빵·호떡 등 재료 인기",
     channel: "국민일보",
-    date: "2020년 12월 3일",
+    date: "2020년 12월",
     link: "http://news.kmib.co.kr/article/view.asp?arcid=0924167811&code=11151600&cp=nv",
   },
   {
@@ -34,7 +49,7 @@ export const newsData = [
     thumbnail: "https://i.postimg.cc/dDPVytjZ/img-news4.png",
     title: "“붕어빵 어디서 파냐고? 앱으로 찾아봐”",
     channel: "이데일리",
-    date: "2020년 11월 23일",
+    date: "2020년 11월",
     link: "https://snaptime.edaily.co.kr/?p=50529,%EA%B0%84%EC%8B%9D,%EA%B2%A8%EC%9A%B8,?%84%EA%B8%88,%EB%B6%95%EC%96%B4%EB%B9?%EA%B0&#128;??%EC%A7&#128",
   },
   {
@@ -42,7 +57,7 @@ export const newsData = [
     thumbnail: "https://i.postimg.cc/gJ7JGKwD/img-news5.png",
     title: "“붕어빵 어디서 파냐고? 앱으로 찾아봐”",
     channel: "까탈로그",
-    date: "2020년 11월 13일",
+    date: "2020년 11월",
     link: "https://stibee.com/api/v1.0/emails/share/Yzjr7s9umXqsjyrtsNiQ30ZS1x7XRQ==",
   },
   {
@@ -50,7 +65,7 @@ export const newsData = [
     thumbnail: "https://i.postimg.cc/ydxxqGNx/img-news6.png",
     title: "가슴속 3천원 붕어빵에 누구보다 진심이었던 한국인의 사이드 프로젝트",
     channel: "디프만 미디엄",
-    date: "2020년 11월 19일",
+    date: "2020년 11월",
     link: "https://medium.com/depromeet/%EA%B0%80%EC%8A%B4%EC%86%8D-3%EC%B2%9C%EC%9B%90-%EB%B6%95%EC%96%B4%EB%B9%B5%EC%97%90-%EB%88%84%EA%B5%AC%EB%B3%B4%EB%8B%A4-%EC%A7%84%EC%8B%AC%EC%9D%B4%EC%97%88%EB%8D%98-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%B8%EC%9D%98-%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-2a3f714026b3",
   },
 ];
@@ -234,17 +249,17 @@ export const footerData = [
     title: "Contact",
     content: "3dollarinmypocket@gmail.com",
   },
-  {
-    id: 3,
-    title: "광고 문의",
-    content: (
-      <a
-        href="https://massive-iguana-121.notion.site/3-ff344e306d0c4417973daee8792cfe4d"
-        target="_blank"
-        rel="noreferrer"
-      >
-        광고 상품 소개서
-      </a>
-    ),
-  },
+  // {
+  //   id: 3,
+  //   title: "광고 문의",
+  //   content: (
+  //     <a
+  //       href="https://massive-iguana-121.notion.site/3-ff344e306d0c4417973daee8792cfe4d"
+  //       target="_blank"
+  //       rel="noreferrer"
+  //     >
+  //       광고 상품 소개서
+  //     </a>
+  //   ),
+  // },
 ];
